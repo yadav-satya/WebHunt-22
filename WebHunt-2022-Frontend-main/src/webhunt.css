@@ -1,0 +1,9 @@
+.webhunt {
+	height: 100vh;
+	width: 100%;
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	font-family: Verdana, 'Lucida Sans Unicode', sans-serif;
+	/* background-color: var(--clr-gray-800); */
+	background-image: url('./assets/images/bg.png');
+}

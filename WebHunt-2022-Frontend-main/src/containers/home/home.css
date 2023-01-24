@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=MuseoModerno:wght@300;400&display=swap');
+
+@font-face {
+	font-family: nasalization-rg;
+	src: url(../../../public/fonts/nasalization-rg.otf) format('truetype');
+}
+
+.background {
+	margin: 0;
+	padding: 0;
+	background-image: url('../../assets/images/bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}
+
+.wh-home-nav-section {
+	position: absolute;
+	right: 1%;
+	bottom: 3%;
+	display: flex;
+	padding: 1vw;
+	z-index: 10;
+}
+
+.tag-box {
+	position: absolute;
+	font-size: 7vw;
+	font-family: nasalization-rg;
+	color: white;
+	width: 38%;
+	top: 18%;
+	left: 16%;
+}
+
+.landing-page-image {
+	position: absolute;
+	background-image: url(../../assets/images/top-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75%;
+	width: 48%;
+	right: 0;
+	top: 0;
+}
+
+.left-side-image {
+	position: absolute;
+	background-image: url(../../assets/images/ld_left_side.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40%;
+	width: 35%;
+	left: 0;
+	top: 60%;
+}
+
+.techspardha-image {
+	position: absolute;
+	width: 47%;
+	background-image: url(../../assets/images/techspardha-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20%;
+	left: 21%;
+	top: 34%;
+}

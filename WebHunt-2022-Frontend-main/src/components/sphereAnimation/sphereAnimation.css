@@ -1,0 +1,26 @@
+.animation-wrapper {
+	width: 50%;
+	padding-bottom: 50%;
+}
+
+.sphere-animation {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+	margin: -150px 0 0 -150px;
+}
+
+.sphere path {
+	fill: url(#sphereGradient);
+	stroke-width: 1px;
+	stroke: rgba(80, 80, 80, 0.35);
+	backface-visibility: hidden;
+}
+
+@media (min-width: 500px) {
+	.sphere path {
+		stroke-width: 0.4px;
+	}
+}

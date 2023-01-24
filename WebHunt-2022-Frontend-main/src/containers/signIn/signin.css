@@ -1,0 +1,178 @@
+.signin-body {
+	margin: 0;
+	display: flex;
+	background-image: url('../../assets/images/bg.png');
+}
+
+.signin-left {
+	position: absolute;
+	background-image: url(../../assets/images/ld_left_side.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 35%;
+	width: 33%;
+	left: 0;
+	bottom: 0;
+}
+
+.signin-right {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	left: 38%;
+	top: 10%;
+	z-index: 1;
+}
+
+.sign-in-rightmost {
+	position: absolute;
+	background-image: url(../../assets/images/top-image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75%;
+	width: 48%;
+	right: 0;
+	top: 0;
+}
+
+.link-text {
+	color: #ff472e !important;
+}
+
+.signin-card {
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	color: rgb(160, 160, 160);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6vh;
+}
+
+.signin-card h2 {
+	font-size: 1.5vw;
+	margin-bottom: 1.5vw;
+	color: cornsilk;
+}
+
+.signin-card h5 {
+	font-size: 0.95vw;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+.signin-card button {
+	width: 22vw;
+	height: 3vw;
+	border-radius: 0.5vw;
+	border: 2px solid #006400;
+	color: white;
+	margin: 1vw 0;
+	font-size: 1vw;
+	cursor: pointer;
+}
+
+.signin-card input {
+	width: 22vw;
+	height: 3vw;
+	border-radius: 8px;
+	border: 2px solid gainsboro;
+	background-color: white;
+	margin-bottom: 0.9vw;
+	padding-left: 0.7vw;
+	letter-spacing: 0.06vw;
+}
+
+.signin-card label {
+	margin: 0 0 0.6vw 0;
+	font-size: 0.9vw;
+}
+
+.signin-card p {
+	align-self: center;
+	font-size: 1vw;
+	margin: 0.7vw 3.2vw 0.7vw 0;
+}
+
+.signin-card span {
+	align-self: center;
+	font-size: 1.03vw;
+	display: block;
+	margin: 0.6vw;
+}
+
+.signin-card a {
+	text-decoration: none;
+	color: rgb(34, 74, 205);
+}
+
+.signin-card button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border: 2px solid rgb(80 80 80 / 35%);
+	color: rgb(34, 74, 205);
+	font-size: 1.2vw;
+}
+
+.signin-inputs button {
+	background-color: rgb(34, 74, 205);
+	color: white;
+}
+
+.sign-in-box {
+	color: #013220 !important;
+}
+
+.login-box {
+	background-color: #ff472e !important;
+}
+
+.google-icon {
+	transform: scale(1.3);
+	margin: 0 0.7vw;
+}
+
+.signin-inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 1250px) {
+	.signin-card {
+		width: 35vw;
+	}
+
+	.signin-card button,
+	.signin-card input {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.signin-left {
+		width: 0;
+	}
+
+	.signin-right {
+		width: 30vw;
+	}
+}
+
+.techspardha-heading {
+	position: absolute;
+	background-image: url(../../assets/images/techspardha-image.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 9%;
+	width: 20%;
+	top: 3%;
+	left: 2%;
+}

@@ -1,0 +1,168 @@
+.signup-body {
+	margin: 0;
+	display: flex;
+	background-image: url('../../assets/images/bg.png');
+}
+
+.signup-left {
+	position: absolute;
+	background-image: url(../../assets/images/ld_left_side.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 35%;
+	width: 33%;
+	left: 0;
+	bottom: 0;
+}
+
+.signup-right {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	left: 38%;
+	top: 10%;
+}
+
+.signup-card {
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	color: rgb(160, 160, 160);
+	margin-top: 12vh;
+}
+
+.create-account-box {
+	background-color: #ff472e !important;
+}
+
+.signup-box {
+	color: #013220 !important;
+}
+
+.signup-card h2 {
+	font-size: 1.5vw;
+	margin-bottom: 1.5vw;
+	color: cornsilk;
+}
+
+.signup-card button {
+	width: 22vw;
+	height: 3vw;
+	border-radius: 8px;
+	border: 2px solid gainsboro;
+	background-color: rgb(54, 95, 230);
+	color: white;
+	margin: 15px 0px;
+	font-size: 16px;
+}
+
+.signup-card input {
+	width: 22vw;
+	height: 3vw;
+	border-radius: 8px;
+	border: 2px solid gainsboro;
+	background-color: white;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	letter-spacing: 1px;
+}
+
+.signup-card label {
+	margin: 0px 0px 10px 0px;
+	font-size: 0.9vw;
+}
+
+.signup-card p {
+	align-self: center;
+	font-size: 1vw;
+	margin: 0.7vw 3.2vw 0.7vw 0;
+}
+
+.signup-card a {
+	text-decoration: none;
+	color: rgb(34, 74, 205);
+}
+
+.signup-card button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid rgb(80 80 80 / 35%);
+	color: rgb(34, 74, 205);
+	font-size: 1.2vw;
+}
+
+.signup-card span {
+	align-self: center;
+	font-size: 1.03vw;
+	display: block;
+	margin: 0.6vw;
+}
+
+.google-icon {
+	transform: scale(1.3);
+	margin: 0px 10px;
+}
+
+.signup-inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup-inputs button {
+	background-color: var(--clr-secondary-600);
+	color: white;
+}
+
+@media screen and (max-width: 1250px) {
+	.signup-card {
+		width: 35vw;
+	}
+
+	.signup-card button,
+	.signup-card input {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.signup-left {
+		width: 0;
+	}
+
+	.signup-right {
+		width: 30vw;
+	}
+}
+
+.sign-up-rightmost {
+	position: absolute;
+	background-image: url(../../assets/images/top-image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75%;
+	width: 48%;
+	right: 0;
+	top: 0;
+}
+
+.techspardha-heading {
+	position: absolute;
+	background-image: url(../../assets/images/techspardha-image.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 9%;
+	width: 20%;
+	top: 3%;
+	left: 2%;
+}
+
+.link-text {
+	color: #ff472e !important;
+}

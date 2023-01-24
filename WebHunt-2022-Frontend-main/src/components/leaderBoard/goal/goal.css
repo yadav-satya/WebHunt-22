@@ -1,0 +1,73 @@
+.wh-leaderboard-goal-section {
+	width: 100%;
+	height: fit-content;
+	padding: 1rem 2rem;
+	background-color: var(--clr-gray-900);
+	display: flex;
+	align-items: center;
+	border-radius: 0.5rem;
+	box-shadow: 0px 0px 1rem var(--clr-gray-900);
+	gap: 1rem;
+	justify-content: space-evenly;
+}
+
+.wh-goal-heading {
+	font-size: 1.2rem;
+	color: white;
+}
+
+.wh-goal-containers {
+	display: flex;
+	gap: 1rem;
+}
+
+.wh-goal-completed {
+	width: fit-content;
+	height: fit-content;
+	padding: 0.5em 1.5em;
+	background-color: #dce1ec;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	border-radius: 4rem;
+}
+
+.wh-goal-completed-active {
+	/* background-color: #00d898; */
+	background-color: #ff472e !important;
+}
+
+.wh-goal-completed-heading {
+	font-size: 1rem;
+	color: black;
+}
+
+.wh-goal-completed-active .wh-goal-completed-heading {
+	color: white;
+}
+
+.wh-goal-indicator {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	color: rgb(114, 114, 114);
+	display: flex;
+	font-size: 0.9rem;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px white;
+}
+
+.wh-goal-indicator-completed {
+	background-color: #b4d5ff;
+	color: #ff472e;
+}
+
+.wh-goal-target span {
+	color: rgb(168, 168, 168);
+}
+
+.wh-goal-target h1 {
+	color: white;
+}

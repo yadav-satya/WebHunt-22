@@ -1,0 +1,77 @@
+.wh-navBar {
+	height: 100%;
+	width: 100%;
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+	background-color: var(--clr-gray-900);
+	padding: 3vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.wh-logo {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wh-logo img {
+	max-width: 60px;
+	max-height: 60px;
+}
+
+.wh-menu-items {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.6vh;
+	padding-bottom: 4vh;
+	cursor: pointer;
+}
+
+.wh-menu-item {
+	/* width: 3.5rem;
+	height: 3.5rem; */
+	width: 7.5vh;
+	height: 7.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff472f;
+	background-color: var(--clr-gray-800);
+	border-radius: 3rem;
+	transition: all 0.3s ease-in;
+}
+
+.wh-menu-item:hover {
+	color: white;
+	border-radius: 0.7rem;
+}
+
+.wh-menu-item-span {
+	position: absolute;
+	color: white;
+	/* font-size: 0.9rem; */
+	font-size: 2vh;
+	/* left: 100px; */
+	left: 13vh;
+	background-color: var(--clr-gray-900);
+	padding: 1vh;
+	border-radius: 0.3rem;
+	visibility: hidden;
+	transition: all 0.1s linear;
+}
+
+.wh-menu-item:hover .wh-menu-item-span {
+	visibility: visible;
+}
+
+.wh-divider {
+	width: 70%;
+	border-color: var(--clr-gray-800);
+	border-style: solid;
+}

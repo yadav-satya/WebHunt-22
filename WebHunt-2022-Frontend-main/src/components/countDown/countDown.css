@@ -1,0 +1,46 @@
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  position: relative;
+  top: 33%;
+  font-size: 4vh;
+}
+
+.container h1 {
+  font-family: nasalization-rg;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-family: nasalization-rg;
+  font-size: 6vh;
+  list-style-type: none;
+  padding: 1vw;
+  text-transform: uppercase;
+}
+
+li span {
+  font-family: nasalization-rg;
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}

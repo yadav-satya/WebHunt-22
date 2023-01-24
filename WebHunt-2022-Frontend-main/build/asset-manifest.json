@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e963b23.css",
+    "main.js": "/static/js/main.55a8cab2.js",
+    "static/media/loder-no-background.gif": "/static/media/loder-no-background.32ac5d5f118df817c4bd.gif",
+    "static/media/bg.png": "/static/media/bg.3fb909de09cc0aae3679.png",
+    "static/media/techspardha.png": "/static/media/techspardha.96c6f1d45d302cb23d73.png",
+    "static/media/globe.png": "/static/media/globe.53cda86e9b130f18d18a.png",
+    "static/media/mblogo.png": "/static/media/mblogo.a72fa16e22b84a358a7d.png",
+    "static/media/grid_2.png": "/static/media/grid_2.3647dd686d434b317a2c.png",
+    "static/media/top-image.png": "/static/media/top-image.969042cf9dd3fcbac9d2.png",
+    "static/media/nasalization-rg.otf": "/static/media/nasalization-rg.4cbf2019f1f7337b2594.otf",
+    "static/media/techspardha-image.png": "/static/media/techspardha-image.231a4f1882c76e228fa3.png",
+    "static/media/grid_1.png": "/static/media/grid_1.274715c5ca283902d444.png",
+    "static/media/ld_left_side.png": "/static/media/ld_left_side.274715c5ca283902d444.png",
+    "static/media/horizantal bar.png": "/static/media/horizantal bar.35a12311d07f21167c24.png",
+    "index.html": "/index.html",
+    "main.5e963b23.css.map": "/static/css/main.5e963b23.css.map",
+    "main.55a8cab2.js.map": "/static/js/main.55a8cab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e963b23.css",
+    "static/js/main.55a8cab2.js"
+  ]
+}

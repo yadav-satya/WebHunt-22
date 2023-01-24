@@ -1,0 +1,37 @@
+.wh-lobby-page {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: relative;
+}
+.wh-navBar-section {
+	height: 100vh;
+	width: 7vw;
+	padding: 0.5vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.wh-main-section {
+	margin-left: 7.5vw;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5vw;
+}
+.wh-heading-section {
+	width: 100%;
+	height: 4.3vw;
+	display: flex;
+	align-items: center;
+	font-size: 1.07vw;
+	color: white;
+	z-index: 100;
+	font-family: nasalization-rg;
+}
+.wh-content-section {
+	flex-grow: 1;
+	width: 100%;
+}
+
